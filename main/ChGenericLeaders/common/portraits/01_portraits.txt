@@ -1,0 +1,7 @@
+CHI = {
+	army = {
+		male = {
+			"gfx/leaders/CHI/Portrait_CHI_Generic_land_1.dds"
+		}
+	}
+}
