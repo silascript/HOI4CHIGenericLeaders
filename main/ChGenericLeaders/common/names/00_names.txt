@@ -18,7 +18,7 @@ default = {
 	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
 }
-
+ 
 ###############################################################
 # The Majors
 ###############################################################
@@ -36,7 +36,7 @@ GER = {
 		Becker Hoffmann Graf Erhler Hafner Lipfert Brendel Stotz Kirschner Lang Sturm 
 		Beisswenger Duttmann Wilbs Berglen Behrmann 
 		}
-	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red knight" "Reeste" }
+	callsigns = { "Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer" "The Red Knight" "Reeste" }
 }
 
 
@@ -863,17 +863,25 @@ OMA = {
 PER = {
 	male = {
 		names = { Aziz Shams Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
-			Ebrahim Esmail Fazlollah Hamzeh Hasan Hossein Kamran Karim 
-			Mahmoud Massoud Mohammad Murad Muhsin  Nosret Reza  
+			Fazlollah Hamzeh Hasan Karim Mahmoud  Mohammad Murad Muhsin  Nosret Reza  
+			Afshin  Ardashir Aria Arshad Arman Armand Ammar Amir Arash Arvin Atash
+			Bijan Babak Bardia Basir Dalir Dariush Derafsh Ebrahim Ervin Ehsan Esmail Izad
+			Farhad Farbod Farrokh Farshid Hamid Hassan Hossein Hormuzd Jamshid Kamran Kasra Khashayar 
+			Kourosh Khosrow Mazdak Mazdan Maziar Mehran Manuchehr Massoud Mehrdad Marzban Mehdi Milad Mir 
+			Omid Papak Parsa Parviz Payam Pedram Piruz Pouria Ramin Rexa Rostam Sadegh Sassan Sepehr 
+			Shahin Shapour Shahryar Shervin Sohrab Soroush Turan Vahid Vandad Yousef Zand Zartosh Zurvan
 		}
 	}
 	female = {
 		names = { Mehrnaz Farnaz }
 	}
 	surnames = {
-		Faghihinejad Jorjani Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
-		Jahanbani Kashani  Khuzai Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
-		Shirazi Tabrizi Tahmasebi Zahedi
+		Faghihinejad Jorjani Airom Ansari Ayrum Buzarjomehri Davallu Farhani Jahanbani Kashani 
+		Khuzai Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti Tahmasebi Abed Ahura 
+		Ebrahimi Esfahani Esfandiari Farrokhzad Farahmand Ghorbani Ghademi Homayoun Hooshang
+		Jahandar jahangir Jahanshah Jamshidi Kavoosi Khadem Khiabni Khorasani Khorram-din Lajani Madani
+		Mazdaki Mazdani Mehregan Mazandarani Mokri Mohsen Paria Parsi Pouran Rahbar Rajavi Rezaei Rostamian 
+		Sassani Shamshiri Shir-Del Shirazi Tehrani Turani Tabrizi Zahedi
 	}
 	callsigns = { }
 }
@@ -1071,6 +1079,43 @@ AST = {
 	
 	 }
 	callsigns = { }
+
+	ace = {
+		name = Leslie
+		callsign = Les
+		surname = Clisby
+		type = fighter
+	}
+	ace = {
+		name = "John"
+		callsign = Wad
+		surname = Waddy
+		type = fighter
+	}
+	ace = {
+		name = Keith
+		callsign = Bluey
+		surname = Truscott
+		type = fighter
+	}
+	ace = {
+		name = Paterson
+		callsign = Pat
+		surname = Hughes
+		type = fighter
+	}
+	ace = {
+		name = Adrian
+		callsign = Tim
+		surname = Goldsmith
+		type = fighter
+	}
+	ace = {
+		name = Clive
+		callsign = Killer
+		surname = Caldwell
+		type = fighter
+	}
 }
 NZL = {
 	male = {
@@ -1088,6 +1133,32 @@ NZL = {
 	callsigns = { }
 }
 
+INS_HOL = {
+	male = {
+		names = { 
+			Adriaan Albert Anthony Antonius Berend Bodo Carsten Christiaan Cornelis Dirk Ferdinand Freek Frits Gerard Godfried Govert Hendrik Henri Jacob Jacobus Jan "Jan Willem" Johan Johannes Laurens Mathias Matthijs Nicolaas Peter Petrus Philippus Pieter Quirinus Sijmen Theodorus Tjerk Willem
+		 }
+	}
+	
+	female = {
+		names = { Coba Corrie Frieda Hannie Helena Ina Jet Joke Miep Reina Truus }
+	}
+
+	surnames = { 
+	Boers "'t Mannetje" Best "Bischoff van Heemskerk" "de Visser" "den Hollander" "den Ouden" "Jacometti" "van den Bent" "van den Briel" "van den Hof" "van der Bijl" "van Helsdingen" "van Liempd" "van Setten" "van Voorst tot Voorst" "van Zinnicq Bergmann" "Wittert van Hoogland" Bosch Bruggink Bruinier Buijs Buurman Carstens "den Breejen" Elias Folmer Giesen Ham Harberts Hilberdink Hoogewerff Hoving Jaapies Janssen Jolles Kaak Kraak Krouwel Kuiper Landzaat Leegstra Lukkien Maas Migchelbrink Reijnierse Rijnders Roelofsen Sandberg Scherpenhuijzen Schippers Steen Tebrunsvelt Varwijk Verhoef Visscher Vos Winkelman
+	  }
+}
+
+INS = {
+	male = {
+		names = { Joko Fauzi Prabowo Ali Soemarno Henk Widji Teuku Hadi Azwar Mustafa Zaini Abdul Anak Ida Dewa }
+	}
+	female = {
+		names = { Diah Siti }
+	}
+	surnames = { Widodo Bowo Subianto Sadikin Sosroatmodjo Ngantung Permatasari Damono Wibowo Thukul Hartinah Gunawan Haryanto Suprianto Sabara Abubakar "Bagus Oka" "Bagus Mantra" Martha}
+	callsigns = { }
+}
 
 BHU = {
 	male = {
@@ -1121,7 +1192,8 @@ NEP = {
 	surnames = { Thapa "Singh Thapa" Singh Rana "Bahadur Rana"  }
 	callsigns = { }
 }
-RAJ = {
+
+RAJ_UK = {
 	male = {
 		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
 			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
@@ -1143,6 +1215,57 @@ RAJ = {
 	callsigns = { }
 }
 
+MAL_UK = {
+	male = {
+		names = { Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax  Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		  }
+	}
+	female = {
+		names = { Elizabeth Anne }
+	}
+	surnames = { 	Allenby Battemberg Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+			Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy
+			Hamilton Hardinge Havelock Hope Jellicoe Kitchener Lyons Madden Milne Montgomery
+			Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+			Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+			
+		}
+	callsigns = { }
+}
+
+RAJ = {
+	male = {
+		names = { 
+			Mohandas Narenda Dalbir Bipin Subrata Amarjeet Sanijv Ravi Praveen Surinder Balwant Sarath Amit Bimal Kumar Ranbir Manoj Suresh Sunil Sushila Meena Velu Aniruddha Shokin Ashwani Ashok Abhay Devraj Rudramurti Punita Anand Dipankar Ramnath Bahadur Atan Syed Kesur Bana Chain Ganga Gian Jadunath Mukund Surinder Triveni Varinder Sonam Ram Yogendra
+		  }
+	}
+	female = {
+		names = { Indira }
+	}
+	surnames = { 
+		Neru Ghandi Modi Singh Suhag Rawat Hira Saha Sharma Nimbhorkar Talwar Thoge Hooda Bakshi Negi Hariz Chand Soni Verma Reddy Gupta Cheema Prasad Bharali Shivane Unni Sarin Patyal Chakravarty Bali Datta Naravane Chavan Chandra Bandyopadhyay Krishna Pannu Ambre Ahir Varadarajan Wangchuk Yadav
+		}
+	callsigns = { }
+}
+
+PAK = {
+	male = {
+		names = { 
+			Syad Ahmad Muhammed Aga Nawab Maulvi Karamat Abdul Nasir Maulana Ibraheem Bhai Hussain Malik Raees Choudhry Rahmat
+		}
+	}
+	female = {
+		names = { }
+	}
+	surnames = { 
+			Khan Ali Malik Nabiullah Sadiq Shafi Pirbhai Ahmed Baig Johar
+	}
+	callsigns = { }
+}
 
 PHI = {
 	male = {
@@ -1173,6 +1296,7 @@ SIA = {
 }
 CHI = {
 	male = {
+
 		names = { 胡三余 史泽波 马法五 陈长捷 周毓英 王靖国 赵承绶 梁培璜 孙楚 牟中珩 宋希濂 范汉杰 汤尧 韩浚 罗历戎 廖昂 陈金城 康泽 文强 曹天戈 林伟俦 向凤武 邱行湘 郑庭笈 黄正诚 杜建时 宋瑞珂 马励武 卢浚泉 武庭麟 喻英奇 张淦 陈林达 霍守义 区寿年 李涛 张岚峰 孙殿英 郝鹏举 孙渡 张绩武 王景宋 莫得洪 段霖茂 钟彬 熊新民 赵锡田 陈颐鼎 曾扩情 邱维达 王雷震 萧以觉 吴绍周 侯吉晖 刘嘉树 王韵琴 周振强 杨光钰 方靖 王凌云 郭一予 刘镇湘 王秉钺 陈士章 黄淑 米文和 理明亚 王继祥 盛永兴 胡临聪 杨宏光 王泽浚 张义纯 李以劻 张鸿文 李益智 高建白 王靖宇 袁鸿逵 孔庆桂 杨安铭 徐钟端 李九思 庄村夫 宋清轩 汪宪 王绪镒 胡靖安 杨文泉 聂松溪 郭天辛 杨文彩 王震 李旭东 韩世儒 李献中 李琰 周剑秋 李纪云 李昆岗 罗哲东 韩尹明 李铁民 于泽霖 刘润川 唐保黄 李用章 杨天民 姚北辰 郭惠苍 刘英 路可贞 李英才 谢代蒸 留光天 胡晋生 郑明新 周由之 刘振世 李奇亨 李友尚 万壑涛 徐其昌 隰可庄 萧本元 杨维翰 李资深 游凌云 沈澄年 林曦祥 王檄暅 沈瑞 曹近谦 罗辛理 晏子风 唐孟恪 胡景瑗 奇玉山 龙矫 王世高 万又麟 李子法 郑继周 贺奎 黄炳寰 殷开本 李文昭 黄文徽 邹玉桢 景阳 李长雄 黄建镛 余辉庭 顾心衡 杨焜 文小山 陈时杰 李定陆 许颖 杨温 张羽仙 罗莘莍 罗英 张麟阁 李嵩 董汝桂 杨自立 宋健人 武之棻 雷秀民 张泽深 黎天荣 杜辅廷 杨萌 崔广森 盛超 韦德 袁庆荣 李日基 高宪岗 魏翱 杨伯涛 刘德溥 陶修 陈文瑞 彭定一 汪匣峰 李家英 陈玲 张光汉 陈远湘 郝勤福 张惠源 王宪章 覃道善 张文心 王岳 吴庭玺 夏建勋 杨维垣 冯梓 田士吉 贾璜 成于念 靳书科 李思温 韩天春 郭跻堂  }
 	}
 	female = {
@@ -1261,6 +1385,16 @@ MEN = {
 	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
 	callsigns = { }
 }
+MAN = {
+	male = {
+		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an }
+	callsigns = { }
+}
 TAN = {
 	male = {
 		names = {  Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin  }
@@ -1280,6 +1414,17 @@ KOR = {
 		names = { }
 	}
 	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+MAL = {
+	male = {
+		names = { Najib Muhammad Tengku Kadir "Tengku Kadir" Embok Eunos Ibrahim Pak Pandir Rashid Ahmad Nordin Abdul Amin Lokman Yaacob Elyas Mazlan }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Razak Yusof Ali Suloh Abdullah Yaacob Sako Maidin Boestamam Aziz Latiff Omar }
 	callsigns = { }
 }
 
@@ -1318,6 +1463,90 @@ ETH = {
 	 }
 	callsigns = { }
 }
+ANG = {
+	male = {
+		names = { 
+			José Eduardo Henrique Alberto Joaquim Dinho Demosthenes Amos Kafundanga Jeremias Valdemar Mendes Rodrigues Agostinho Viriato Nito
+		   }
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+		"dos Santos" Tiago "N'zita" Vinama Chingunji Chilingutila Chitunda Chidondo "de Carvalho" Mingas Neto "da Cruz" Alves
+	 }
+	callsigns = { }
+}
+BOT = {
+	male = {
+		names = { 
+			Seretse Goitsebeng Maphiri Sekgoma Quett Ketumile Joni Ian Tebogo Dikgakgamatso
+		   }
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+		Khama Masire Mogae Segokgo
+	 }
+	callsigns = { }
+}
+COG = {
+	male = {
+		names = { 
+			 Mobutu Joseph Patrice Antoine Laurent Albert Moise Etienne Nzimbi Ngbale Jérôme
+		   }
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+	  	 Kasavubu Lumumba Gizenga Delvaux Mbariko Tshombo Kimba Mobutu Ileo Adoula Anany Bamba Mahamba Bangala Efomi Kasa-Vubu
+	 }
+	callsigns = { }
+}
+KEN = {
+	male = {
+		names = { 
+			Uhuru William Ekwee Justin Githu Dedan Jomo Warũhiũ Koitalel Kango Onyango Musa
+		   }
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+	  	Kenyatta Ruto Ethuro Muturi Muigai Kimathi Itote Samoei Muchai Obama Mwariama Mathenge
+	 }
+	callsigns = { }
+}
+MZB = {
+	male = {
+		names = { 
+			José Eduardo Henrique Alberto Joaquim Dinho Demosthenes Amos Kafundanga Jeremias Valdemar Mendes Rodrigues Agostinho Viriato Nito
+		   }
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+	  	"dos Santos" Tiago "N'zita" Vinama Chingunji Chilingutila Chitunda Chidondo "de Carvalho" Mingas Neto "da Cruz" Alves Machel
+	 }
+	callsigns = { }
+}
+ZIM = {
+	male = {
+		names = { 
+			Desmond Abel Kadungure Sekuru Robert Lobengula Joshua Dumiso Leopold Joseph Gabriel Mqabuko Nyongolo Thomas Letswansto Ndabaningi
+		   }
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+	  	Tutu Muzorewa Nkomo Mapondera Kaguvi Khumalo Dabengwa Msika Takawira Masuku Sithole Tekere Nkala Nyagumbo
+	 }
+	callsigns = { }
+}
 SAF = {
 	male = {
 		names = { 
@@ -1327,7 +1556,7 @@ SAF = {
 	female = {
 		names = { }
 	}
-	surnames = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys  }
+	surnames = { Cilliers Botha Joubert Kruger Duquesne Potgieter "van Rensburg" "de la Rey" Theron "de Wet" Pretorius Retief "de Beer" Uys }
 	callsigns = { }
 }
 

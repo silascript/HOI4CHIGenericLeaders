@@ -3,4 +3,4 @@ path="mod/ChGenericLeaders/"
 tags={
 	"Fixes"
 }
-supported_version="1.3.1"
+supported_version="1.5.*"
